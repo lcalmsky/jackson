@@ -1,14 +1,14 @@
 package io.lcalmsky.jackson.domain;
 
-        import com.fasterxml.jackson.core.JsonProcessingException;
-        import com.fasterxml.jackson.databind.ObjectMapper;
-        import org.junit.jupiter.api.DisplayName;
-        import org.junit.jupiter.api.Test;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-        import static org.hamcrest.CoreMatchers.not;
-        import static org.hamcrest.core.StringContains.containsString;
-        import static org.junit.Assert.assertThat;
-        import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.core.StringContains.containsString;
+import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertAll;
 
 public class BeanWithCustomAnnotationTests {
     @Test

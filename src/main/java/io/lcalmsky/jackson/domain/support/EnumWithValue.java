@@ -10,7 +10,7 @@ public enum EnumWithValue {
     private Integer intValue;
     private String strValue;
 
-    private EnumWithValue(Integer intValue, String strValue) {
+    EnumWithValue(Integer intValue, String strValue) {
         this.intValue = intValue;
         this.strValue = strValue;
     }

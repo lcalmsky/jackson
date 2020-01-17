@@ -1,7 +1,7 @@
 package io.lcalmsky.jackson.domain;
 
-        import com.fasterxml.jackson.annotation.JsonFilter;
-        import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonFilter;
+import lombok.Data;
 
 @Data
 @JsonFilter("myFilter")
